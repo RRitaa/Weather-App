@@ -62,6 +62,7 @@ function getLocation(event) {
   navigator.geolocation.getCurrentPosition(searchLocation);
 }
 
+//challenge 3
 function convertToFahrenheit(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
